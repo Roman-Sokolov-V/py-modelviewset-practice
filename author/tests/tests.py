@@ -7,7 +7,7 @@ from rest_framework.test import APIClient
 from author.models import Author
 from author.serializers import AuthorSerializer
 
-AUTHORS_URL = reverse("author:manage")
+AUTHORS_URL = reverse("author:manage-list")
 
 
 class AuthorApiTests(TestCase):
